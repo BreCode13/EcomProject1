@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Verdana',sans-serif;
+    padding:0;
+    margin:0;
+    background-color:black
+  }
+  p{color: cornsilk;}
+  nav {
+    background-image: linear-gradient(to bottom right, black);
+    color: cornsilk;
+    padding: 15px 15px;
+  } 
+  .section {margin: auto;}
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search {
+    display: inline-flex;
+    align-items: right;
+    background-color: cornsilk;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .searchInput::placeholder {
+    color: black;
+  }
+  
+  .limitedOffer {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(222, 39, 15);
+    cursor: pointer;
+  }
+  
+  .navBottom {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+  }
+
+  section {margin: auto;}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   margin-top: auto;
+   position: sticky;
+   display: flex;
+}
+
+li a {
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+
+  * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+
+        @media only screen and (max-width: 800px) {
+          .text {font-size: 11px}
+        }
+
+        
+/* product collection */
+
+
+.product-collection{
+  padding: 3.2rem 0;
+}
+.product-collection-wrapper{
+  padding: 3.2rem 0;
+}
+.product-col-left{
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/winterwear.webp") center/cover no-repeat;
+}
+.product-col-r-top{
+  background: url("images/jamorant12.webp") center/cover no-repeat;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80vh;
+  margin: 5px;
+}
+.product-col-r-bottom > div:first-child{
+  background: red;
+}
+.product-col-r-bottom > div:last-child{
+  background: black;
+}
+.product-col-content{
+  text-align: center;
+  color: cornsilk;
+  padding-bottom:10%
+}
+.product-collection .text-light{
+  opacity: 1;
+  font-size: 0.8;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+
+
+
+.footer{
+  position: sticky;
+	text-align: center;
+	  padding: 2px;
+	padding-top: 2px;
+	  padding-right: 2px;
+	  padding-bottom: 2px;
+	  padding-left: 2px;
+	background: black;
+  
+  } 
+  
+  #footer {
+    position: sticky;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 0px;
+	border-radius: 20%;
+	background: black;
+  }
+ 
